@@ -29,6 +29,7 @@ body {
   place-items: start;
   min-width: 320px;
   min-height: 100vh;
+  background-color: rgba(240,248,255,0.5);
 }
 
 h1 {

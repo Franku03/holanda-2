@@ -1,0 +1,43 @@
+
+
+body {
+    margin: 0;
+    display: flex;
+    place-items: start;
+    align-items: flex-start;
+    justify-content: left;
+    min-width: 320px;
+    min-height: 100vh;
+}
+
+button {
+    border-radius: 8px;
+    border: none;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+button:hover {
+    border-color: none;
+}
+
+button:focus,
+button:focus-visible {
+    outline: none;
+}
+
+
+.sidebar-button{
+    background: none;
+    border-radius: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #000000;
+    background-color: #ffffff;
+    align-items: start;
+    margin: 0;
+}

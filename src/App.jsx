@@ -1,8 +1,8 @@
 
 import { useState } from 'react'
+import { EncitiNeedsHelp, InicialLayout } from './Components';
+
 import './App.css'
-import { InicialLayout } from './Components/InicialLayout'
-import { MonthJourney } from './Components/Months/MonthJourney';
 
 function App() {
 
@@ -18,7 +18,7 @@ function App() {
       {
         ( isInitiating ) 
         ? <InicialLayout changeInitialLayout={ changeInitialLayout } />
-        : <MonthJourney /> 
+        : <EncitiNeedsHelp /> 
       }
 
     </>

@@ -1,0 +1,117 @@
+
+
+  :root {
+
+    background:  url("https://i.pinimg.com/1200x/33/08/88/3308882a244675788da52502814a0119.jpg")  center top no-repeat fixed;
+    background-size: cover;
+
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+  
+    color-scheme: light dark;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: rgba(255, 255, 255, 0.87);
+  
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem;
+  }
+
+  a {
+    font-weight: 500;
+    color: #646cff;
+    text-decoration: inherit;
+  }
+  a:hover {
+    color: #535bf2;
+  }
+  
+  body {
+    margin: 0;
+    display: flex;
+    place-items: start;
+    min-width: 320px;
+    min-height: 100vh;
+  }
+  
+  h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+  }
+
+  h2 {
+    font-family: "Suez One";
+    color: #7facff;
+  }
+
+  
+  .help-button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    margin: 20px;
+  }
+
+  .help-button:hover {
+    border-color: #646cff;
+  }
+
+  .help-button:focus,
+  .help-button:focus-visible {
+    outline: none;
+  }
+
+  .help-button:hover {
+    border-color: #646cff;
+  }
+  
+  .help-button:active {
+    opacity: 0.5;
+    border: none;
+    outline: none;
+  }
+
+  p{
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.2rem;
+  }
+
+
+  @media (prefers-color-scheme: light) {
+    :root {
+      color: #262c29;
+      background-color: #ffffff;
+    }
+    a:hover {
+      color: #747bff;
+    }
+    button {
+      background-color: #f9f9f9;
+    }
+  }
+
+  @media screen and ( min-width: 993px ) {
+    :root {
+      background:  url("https://i.pinimg.com/1200x/33/08/88/3308882a244675788da52502814a0119.jpg") center no-repeat fixed;
+      background-size: cover;
+    }
+  }
